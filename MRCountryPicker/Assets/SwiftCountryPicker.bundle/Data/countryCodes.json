@@ -21,7 +21,7 @@
 },
 {
 "name": "AmericanSamoa",
-"dial_code": "+1684",
+"dial_code": "+1",
 "code": "AS"
 },
 {
@@ -36,7 +36,7 @@
 },
 {
 "name": "Anguilla",
-"dial_code": "+1264",
+"dial_code": "+1",
 "code": "AI"
 },
 {
@@ -46,7 +46,7 @@
 },
 {
 "name": "Antigua and Barbuda",
-"dial_code": "+1268",
+"dial_code": "+1",
 "code": "AG"
 },
 {
@@ -81,7 +81,7 @@
 },
 {
 "name": "Bahamas",
-"dial_code": "+1242",
+"dial_code": "+1",
 "code": "BS"
 },
 {
@@ -96,7 +96,7 @@
 },
 {
 "name": "Barbados",
-"dial_code": "+1246",
+"dial_code": "+1",
 "code": "BB"
 },
 {
@@ -121,7 +121,7 @@
 },
 {
 "name": "Bermuda",
-"dial_code": "+1441",
+"dial_code": "+1",
 "code": "BM"
 },
 {
@@ -196,7 +196,7 @@
 },
 {
 "name": "Cayman Islands",
-"dial_code": "+345",
+"dial_code": "+1",
 "code": "KY"
 },
 {
@@ -296,12 +296,12 @@
 },
 {
 "name": "Dominica",
-"dial_code": "+1767",
+"dial_code": "+1",
 "code": "DM"
 },
 {
 "name": "Dominican Republic",
-"dial_code": "+1849",
+"dial_code": "+1",
 "code": "DO"
 },
 {
@@ -416,7 +416,7 @@
 },
 {
 "name": "Grenada",
-"dial_code": "+1473",
+"dial_code": "+1",
 "code": "GD"
 },
 {
@@ -426,7 +426,7 @@
 },
 {
 "name": "Guam",
-"dial_code": "+1671",
+"dial_code": "+1",
 "code": "GU"
 },
 {
@@ -451,7 +451,7 @@
 },
 {
 "name": "Guyana",
-"dial_code": "+595",
+"dial_code": "+592",
 "code": "GY"
 },
 {
@@ -526,7 +526,7 @@
 },
 {
 "name": "Jamaica",
-"dial_code": "+1876",
+"dial_code": "+1",
 "code": "JM"
 },
 {
@@ -721,7 +721,7 @@
 },
 {
 "name": "Montserrat",
-"dial_code": "+1664",
+"dial_code": "+1",
 "code": "MS"
 },
 {
@@ -801,7 +801,7 @@
 },
 {
 "name": "Northern Mariana Islands",
-"dial_code": "+1670",
+"dial_code": "+1",
 "code": "MP"
 },
 {
@@ -856,7 +856,7 @@
 },
 {
 "name": "Pitcairn",
-"dial_code": "+872",
+"dial_code": "+870",
 "code": "PN"
 },
 {
@@ -871,7 +871,7 @@
 },
 {
 "name": "Puerto Rico",
-"dial_code": "+1939",
+"dial_code": "+1",
 "code": "PR"
 },
 {
@@ -911,12 +911,12 @@
 },
 {
 "name": "Saint Kitts and Nevis",
-"dial_code": "+1869",
+"dial_code": "+1",
 "code": "KN"
 },
 {
 "name": "Saint Lucia",
-"dial_code": "+1758",
+"dial_code": "+1",
 "code": "LC"
 },
 {
@@ -931,7 +931,7 @@
 },
 {
 "name": "Saint Vincent and the Grenadines",
-"dial_code": "+1784",
+"dial_code": "+1",
 "code": "VC"
 },
 {
@@ -1101,7 +1101,7 @@
 },
 {
 "name": "Trinidad and Tobago",
-"dial_code": "+1868",
+"dial_code": "+1",
 "code": "TT"
 },
 {
@@ -1121,7 +1121,7 @@
 },
 {
 "name": "Turks and Caicos Islands",
-"dial_code": "+1649",
+"dial_code": "+1",
 "code": "TC"
 },
 {
@@ -1181,12 +1181,12 @@
 },
 {
 "name": "Virgin Islands, British",
-"dial_code": "+1284",
+"dial_code": "+1",
 "code": "VG"
 },
 {
 "name": "Virgin Islands, U.S.",
-"dial_code": "+1340",
+"dial_code": "+1",
 "code": "VI"
 },
 {
