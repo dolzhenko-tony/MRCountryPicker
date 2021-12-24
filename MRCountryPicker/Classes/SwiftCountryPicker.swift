@@ -121,6 +121,22 @@ open class MRCountryPicker: UIPickerView, UIPickerViewDelegate, UIPickerViewData
         }
         return countries
     }
+  
+    open func view(for row: Int, forComponent component: Int, reusing view: UIView?) -> UIView {
+      var resultView: SwiftCountryView
+      
+      if view == nil {
+          resultView = SwiftCountryView()
+      } else {
+          resultView = view as! SwiftCountryView
+      }
+      
+      resultView.setup(countries[row], locale: self.selectedLocale)
+      if !showPhoneNumbers {
+          resultView.countryCodeLabel.isHidden = true
+      }
+      return resultView
+    }
     
     // MARK: - Picker Methods
     
@@ -133,19 +149,7 @@ open class MRCountryPicker: UIPickerView, UIPickerViewDelegate, UIPickerViewData
     }
     
     open func pickerView(_ pickerView: UIPickerView, viewForRow row: Int, forComponent component: Int, reusing view: UIView?) -> UIView {
-        var resultView: SwiftCountryView
-        
-        if view == nil {
-            resultView = SwiftCountryView()
-        } else {
-            resultView = view as! SwiftCountryView
-        }
-        
-        resultView.setup(countries[row], locale: self.selectedLocale)
-        if !showPhoneNumbers {
-            resultView.countryCodeLabel.isHidden = true
-        }
-        return resultView
+      return view(for: row, forComponent: component, reusing: view)
     }
     
     open func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
