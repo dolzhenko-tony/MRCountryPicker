@@ -28,12 +28,12 @@ open class MRCountryPicker: UIPickerView, UIPickerViewDelegate, UIPickerViewData
     open weak var countryPickerDelegate: MRCountryPickerDelegate?
     open var showPhoneNumbers: Bool = true
     
-    override init(frame: CGRect) {
+    open override init(frame: CGRect) {
         super.init(frame: frame)
         setup()
     }
     
-    required public init?(coder aDecoder: NSCoder) {
+    open required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         setup()
     }
