@@ -2,7 +2,7 @@
 import Foundation
 import UIKit
 
-class NibLoadingView: UIView {
+open class NibLoadingView: UIView {
     
     @IBOutlet weak var view: UIView!
     
@@ -39,11 +39,11 @@ class NibLoadingView: UIView {
 
 
 
-class SwiftCountryView: NibLoadingView {
+public class SwiftCountryView: NibLoadingView {
     
-    @IBOutlet weak var flagImageView: UIImageView!
-    @IBOutlet weak var countryNameLabel: UILabel!
-    @IBOutlet weak var countryCodeLabel: UILabel!
+    @IBOutlet public weak var flagImageView: UIImageView!
+    @IBOutlet public weak var countryNameLabel: UILabel!
+    @IBOutlet public weak var countryCodeLabel: UILabel!
     
     override init(frame: CGRect) {
         super.init(frame: frame)
