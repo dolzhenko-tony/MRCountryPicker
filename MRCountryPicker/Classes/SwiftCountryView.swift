@@ -6,12 +6,12 @@ open class NibLoadingView: UIView {
     
     @IBOutlet weak var view: UIView!
     
-    open override init(frame: CGRect) {
+    public override init(frame: CGRect) {
         super.init(frame: frame)
         nibSetup()
     }
     
-    required open init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         nibSetup()
     }
