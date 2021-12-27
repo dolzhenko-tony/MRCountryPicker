@@ -13,7 +13,7 @@ let package = Package(
               dependencies: [],
               path: "MRCountryPicker",
               exclude: [],
-              resources: [.process("MRCountryPicker/Assets/SwiftCountryPicker.bundle")])
+              resources: [.process("Assets/SwiftCountryPicker.bundle")])
     ],
     swiftLanguageVersions: [.v5]
 )
