@@ -1,4 +1,4 @@
-// swift-tools-version:5.1
+// swift-tools-version:5.3
 
 import PackageDescription
 
@@ -9,5 +9,6 @@ let package = Package(
     ],
     targets: [
         .target(name: "MRCountryPicker", path: "MRCountryPicker", exclude: [])
-    ]
+    ],
+    swiftLanguageVersions: [.v5]
 )
