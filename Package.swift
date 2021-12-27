@@ -4,6 +4,9 @@ import PackageDescription
 
 let package = Package(
     name: "MRCountryPicker",
+    platforms: [
+        .iOS(.v12)
+    ],
     products: [
         .library(name: "MRCountryPicker",
                  targets: ["MRCountryPicker"])
