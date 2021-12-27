@@ -9,10 +9,11 @@ let package = Package(
                  targets: ["MRCountryPicker"])
     ],
     targets: [
-        .target(name: "MRCountryPicker",
-                path: "MRCountryPicker",
-                resources: [.process("MRCountryPicker/Assets/SwiftCountryPicker.bundle")],
-                exclude: [])
+      .target(name: "MRCountryPicker",
+              dependencies: [],
+              path: "MRCountryPicker",
+              exclude: [],
+              resources: [.process("MRCountryPicker/Assets/SwiftCountryPicker.bundle")])
     ],
     swiftLanguageVersions: [.v5]
 )
