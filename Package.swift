@@ -14,6 +14,6 @@ let package = Package(
     targets: [
       .target(name: "MRCountryPicker",
               dependencies: [],
-              resources: [.process("Assets/SwiftCountryPicker.bundle")])
+              resources: [.process("Assets")])
     ]
 )
