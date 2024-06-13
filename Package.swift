@@ -14,8 +14,6 @@ let package = Package(
     targets: [
       .target(name: "MRCountryPicker",
               dependencies: [],
-              path: "MRCountryPicker",
-              exclude: [],
               resources: [.process("Assets/SwiftCountryPicker.bundle")])
     ]
 )
