@@ -11,7 +11,7 @@ struct Country {
     var phoneCode: String?
     var flag: UIImage? {
         guard let code = self.code else { return nil }
-        return UIImage(named: "SwiftCountryPicker.bundle/Images/\(code.uppercased())", in: Bundle(for: MRCountryPicker.self), compatibleWith: nil)
+      return UIImage(named: "SwiftCountryPicker.bundle/Images/\(code.uppercased())", in: Bundle.module, compatibleWith: nil)
     }
 
     init(code: String?, name: String?, phoneCode: String?) {
@@ -93,7 +93,7 @@ open class MRCountryPicker: UIPickerView, UIPickerViewDelegate, UIPickerViewData
     
     func countryNamesByCode() -> [Country] {
         var countries = [Country]()
-        let frameworkBundle = Bundle(for: type(of: self))
+      let frameworkBundle = Bundle.module
         guard let jsonPath = frameworkBundle.path(forResource: "SwiftCountryPicker.bundle/Data/countryCodes", ofType: "json"), let jsonData = try? Data(contentsOf: URL(fileURLWithPath: jsonPath)) else {
             return countries
         }
