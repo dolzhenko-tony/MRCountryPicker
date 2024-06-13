@@ -1,11 +1,11 @@
-// swift-tools-version:5.3
+// swift-tools-version:5.10
 
 import PackageDescription
 
 let package = Package(
     name: "MRCountryPicker",
     platforms: [
-        .iOS(.v12)
+        .iOS(.v15)
     ],
     products: [
         .library(name: "MRCountryPicker",
@@ -17,6 +17,5 @@ let package = Package(
               path: "MRCountryPicker",
               exclude: [],
               resources: [.process("Assets/SwiftCountryPicker.bundle")])
-    ],
-    swiftLanguageVersions: [.v5]
+    ]
 )
